@@ -1,0 +1,31 @@
+{
+  "name": "wander-api",
+  "version": "1.0.0",
+  "description": "wander api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wander",
+    "api"
+  ],
+  "author": "wander",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "firebase": "^9.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.9",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.13"
+  },
+  "engines": {
+    "node": "14.17.0"
+  }
+}
